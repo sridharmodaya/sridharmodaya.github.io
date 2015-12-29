@@ -5,12 +5,41 @@
     background-repeat:repeat-y;
     background-size:contain;
     /*background-position:center;*/
-    min-height: 2000px;
 }
 
 #quote{
-    background: rgba(0, 0, 0, 0.49);
+    background: rgba(255, 255, 255, 0.50);
     margin-bottom: 10px;
-    color: #bda51b;
+    margin-top: 10px;
+    color: #000000;
 }
 
+#detail-text{
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#footer-top{
+    background: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.04);
+    border: dotted;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+#donation-btn{
+    right: 8px;
+    position: fixed;
+    background: rgba(245, 234, 231, 0.65);
+    margin-top: 100px;
+    z-index: 20;
+    font-weight: bolder;
+    font-size: larger;
+}
