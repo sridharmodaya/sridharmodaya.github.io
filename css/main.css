@@ -1,0 +1,13 @@
+#content{
+    margin-top: 0px;
+    padding-top: 0px;
+    background-image: url("../imgs/background.jpg");
+    background-repeat:repeat-y;
+    /*background-size:contain;*/
+    /*background-position:center;*/
+    min-height: 2000px;
+}
+
+#content1{
+    background-image: url("../imgs/galkanuwa.png");
+}
