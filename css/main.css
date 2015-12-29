@@ -34,6 +34,11 @@
     border-color: rgba(255, 255, 255, 0);
 }
 
+.navbar a{
+    color: #080808;
+    font-weight: bolder;
+}
+
 #donation-btn{
     right: 8px;
     position: fixed;
@@ -42,4 +47,41 @@
     z-index: 20;
     font-weight: bolder;
     font-size: larger;
+}
+
+
+#btn-sinhala{
+    left: 8px;
+    position: fixed;
+    background: rgba(245, 234, 231, 0.65);
+    margin-top: 100px;
+    z-index: 20;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#btn-english{
+    left: 8px;
+    position: fixed;
+    background: rgba(245, 234, 231, 0.65);
+    margin-top: 140px;
+    z-index: 20;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+#details{
+    min-height: 500px;
+    text-align: center;
+}
+
+#details .jumbotron{
+    background: rgba(255, 255, 255, 0.49);
+}
+
+#copyrights{
+    padding-top: 5px;
+    text-align: center;
+    background: rgba(21, 21, 21, 0.3);
 }
